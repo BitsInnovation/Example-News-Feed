@@ -2,16 +2,20 @@
 
 ## Steps to Run Example:
 
-### Step 1: Enter the virtual environment
+### Step 1: Create a virtual environment
 
-I included a virtual environment called (venv) that has all the Python packages you need to
-run this app.
+I included a "requirements.txt" file that you can use to install all the dependencies for running the app.
+
+__NOTE:__ if you already have Django 1.9+ installed, you can probably skip this step.
 
 
 Simply run:
 
 ```bash
+$ virtualenv venv
 $ source venv/bin/activate
+$ cd news_feed
+$ pip install -r requirements.txt
 ```
 
 ### Step 2: Run the Django app
